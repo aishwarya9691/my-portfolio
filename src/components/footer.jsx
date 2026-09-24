@@ -8,7 +8,7 @@ function Footer() {
           {/* Name */}
           <div>
             <h3 className="text-xl font-bold">
-              Aishwarya<span className="text-blue-400">.</span>
+              Aishwarya Powar<span className="text-blue-400">.</span>
             </h3>
 
             <p className="text-gray-500 text-sm mt-1">
