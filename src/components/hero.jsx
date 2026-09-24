@@ -236,29 +236,31 @@ function Hero() {
               className="
                 relative
                 z-10
-                w-64
-                h-72
-                sm:w-80
-                sm:h-96
-                lg:w-[400px]
-                lg:h-[500px]
+                w-56
+                h-56
+                sm:w-72
+                sm:h-72
+                lg:w-[370px]
+                lg:h-[370px]
+                rounded-full
+                overflow-hidden 
                 flex
                 items-end
                 justify-center
               "
             >
-              <img
-                src="/images/profile.png"
-                alt="Aishwarya Powar"
-                className="
-                  w-full
-                  h-full
-                  object-contain
-                  drop-shadow-[0_0_35px_rgba(59,130,246,0.35)]
-                "
+            <img
+              src="/images/profile.png"
+              alt="Aishwarya Powar"
+              className="
+                w-full
+                h-full
+                object-contain
+                object-bottom
+                drop-shadow-[0_0_35px_rgba(59,130,246,0.35)]
+              "
               />
-            </div>
-
+              </div>
             {/* Decorative Dots */}
             <div
               className="
