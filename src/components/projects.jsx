@@ -35,6 +35,15 @@ function Projects() {
       github: "https://github.com/aishwarya9691/Simple-Calculator",
       live: "#",
     },
+
+    {
+      title: "Portfolio Website",
+      description:
+        "A personal portfolio website showcasing my skills, projects, and contact information.",
+      technologies: ["React", "Tailwind CSS"],
+      github: "https://github.com/aishwarya9691/my-portfolio",
+      live: "#",
+    }
   ];
 
   return (
