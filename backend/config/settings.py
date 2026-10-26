@@ -146,8 +146,8 @@ CONTACT_RECEIVER_EMAIL = os.getenv("CONTACT_RECEIVER_EMAIL")
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
-CORS_ALLOWED_ORIGINS = [
-    "https://my-portfolio-two-weld-v4xahw0r56.vercel.app",
+CORS_ALLOWED_ORIGINS = [   
     "http://localhost:5174",
+    "https://my-portfolio-two-weld-v4xahw0r56.vercel.app",
 
 ]
