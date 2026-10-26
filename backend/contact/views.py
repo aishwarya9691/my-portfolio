@@ -1,4 +1,6 @@
+import logging
 
+logger = logging.getLogger(__name__)
 from django.conf import settings
 from django.core.mail import send_mail
 
@@ -53,10 +55,10 @@ class ContactView(APIView):
                 status=status.HTTP_200_OK
             )
 
-        except Exception as e:
-            print("EMAIL ERROR:", repr(e))
-
-        return Response(
-            {"error": "Failed to send email"},
-            status=status.HTTP_500_INTERNAL_SERVER_ERROR,
-    )
+        except Exception:
+            logger.exception("CONTACT EMAIL FAILED")
+            return Response(
+                {"error": "Failed to send email"},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            )
+    
