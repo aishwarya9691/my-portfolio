@@ -65,7 +65,8 @@ class ContactView(APIView):
             headers={
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",
-            },
+                "User-Agent": "my-portfolio-backend/1.0",
+        },
             method="POST",
         )
 
