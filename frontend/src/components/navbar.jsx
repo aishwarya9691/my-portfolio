@@ -44,6 +44,15 @@ function Navbar() {
 
           <li>
             <a
+              href="#certifications"
+              className="hover:text-blue-400 transition"
+            >
+              Certifications
+            </a>
+          </li>
+
+          <li>
+            <a
               href="#skills"
               className="hover:text-blue-400 transition"
             >
