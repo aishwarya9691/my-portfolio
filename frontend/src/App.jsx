@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar.jsx";
 import Hero from "./components/hero.jsx";
 import About from "./components/about.jsx";
+import Certifications from "./components/certifications.jsx";
 import Skills from "./components/skills.jsx";
 import Projects from "./components/projects.jsx";
 import Education from "./components/education.jsx";
