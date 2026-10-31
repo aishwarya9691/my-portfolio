@@ -67,12 +67,12 @@ function Certifications() {
                   Python Full Stack Development
                 </h3>
 
-                <p className="text-gray-400 text-base md:text-lg
-                leading-relaxed mb-8">
-                  Successfully completed Python Full Stack
-                  Development training with practical project
-                  experience. Gained hands-on knowledge of
-                  frontend and backend web development.
+                <p className="text-gray-400 text-base md:text-lg leading-relaxed mb-8">
+                  Successfully completed Python Full Stack Development
+                  training with{" "}
+                  <span className="text-blue-400 font-bold">98.18%</span>.
+                  Gained practical experience and hands-on knowledge of
+                  frontend and backend web development through real-world projects.
                 </p>
 
                 {/* View Certificate Button */}
