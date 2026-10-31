@@ -41,9 +41,9 @@ function About() {
             </p>
 
             <p className="text-gray-400 leading-relaxed">
-              Currently, I am pursuing Python Full Stack Development
-              and continuously improving my skills through practical
-              projects and hands-on development.
+              Completed Python Full Stack Development course and developed practical skills 
+              through hands-on projects. Passionate about building responsive web applications 
+              and continuously learning new technologies.
             </p>
 
           </div>
