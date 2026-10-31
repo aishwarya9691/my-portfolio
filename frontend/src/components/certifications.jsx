@@ -28,7 +28,7 @@ function Certifications() {
           </p>
 
           <a
-            href="/certificates/disha-certificate.pdf"
+            href="/certificates/certificate.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-600 text-white px-6 py-3
